@@ -42,13 +42,6 @@ body {
   margin-top: 10px;
 }
 
-.pokemon-card .type {
-  background-color: #eee;
-  border-radius: 5px;
-  padding: 5px 10px;
-  font-size: 12px;
-}
-
 .search-bar {
   display: block;
   width: 50%;
@@ -58,3 +51,46 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+/* src/App.css */
+
+/* ... (all your other styles are above this) ... */
+
+.weaknesses {
+  margin-top: 10px;
+}
+
+.weakness-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.type {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #fff; 
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+}
+
+.type-grass { background-color: #78C850; }
+.type-poison { background-color: #A040A0; }
+.type-fire { background-color: #F08030; }
+.type-flying { background-color: #A890F0; }
+.type-water { background-color: #6890F0; }
+.type-bug { background-color: #A8B820; }
+.type-normal { background-color: #A8A878; }
+.type-electric { background-color: #F8D030; color: #000; text-shadow: none;}
+.type-ground { background-color: #E0C068; }
+.type-fighting { background-color: #C03028; }
+.type-psychic { background-color: #F85888; }
+.type-rock { background-color: #B8A038; }
+.type-ice { background-color: #98D8D8; }
+.type-ghost { background-color: #705898; }
+.type-dragon { background-color: #7038F8; }
+.type-dark { background-color: #705848; }
+.type-steel { background-color: #B8B8D0; }
+.type-fairy { background-color: #EE99AC; }

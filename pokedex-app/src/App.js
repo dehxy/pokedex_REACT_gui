@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './App.css';
-import Pokemon from './Pokemon';
-import PokemonDetail from './PokemonDetail';
-import pokedexData from './pokedex.json';
+import './App.css'; // App.css
+import Pokemon from './Pokemon'; //Pokemon.js
+import PokemonDetail from './PokemonDetail'; //PokemonDetail.js
+import pokedexData from './pokedex.json'; // pokedex.json
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My First Pokedex</h1>
+      <h1>Alan Wanks On All Fours</h1>
       <input
         type="text"
         placeholder="Search for a Pokémon..."

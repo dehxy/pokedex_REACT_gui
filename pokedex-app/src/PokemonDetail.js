@@ -16,6 +16,7 @@ const PokemonDetail = ({ pokemon, onClose }) => {
         <p>Number: {pokemon.num}</p>
         <p>Height: {pokemon.height}</p>
         <p>Weight: {pokemon.weight}</p>
+        <p>egg: {pokemon.egg}</p>
 
         <div className="detail-types">
           {pokemon.type.map(type => (

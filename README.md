@@ -8,3 +8,6 @@ Displays a card for each Pokémon, showing its picture, name, number, types, and
 
 Uses simple CSS for the styling to make it look clean.
 
+Open new Terminal
+  cd pokedex-app
+    npm start
